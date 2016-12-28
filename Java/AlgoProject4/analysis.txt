@@ -1,0 +1,5 @@
+PrimJarnikMST() runs in O(N*log^2N)) // with an outer loop that iterates N times two inner loops that both iterate log^2 times 
+
+EulerTour() runs in (N) // number of vertices in graph
+
+TSP() runs in (M) // number of edges created by EulerTour()

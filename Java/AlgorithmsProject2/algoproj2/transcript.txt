@@ -1,0 +1,88 @@
+***** Main method call ******
+
+task1("Completing task1... ",  10000000);
+task2("Completing task2... " , 10000000);        
+task3("completing task3... " ,  1000000);        
+// reduced to 1,000,000 due to slow running times
+task4("Completing task4... " ,  1000000, 30);        
+task4("Completing task4... " ,  1000000, 100);        
+task4("Completing task4... " ,  1000000, 200);        
+task4("Completing task4... " ,  1000000, 300);
+
+
+***** Output **************
+
+Completing task1... 
+Sorting array of random values with 10,000,000 integers...done
+Average Running times: 
+mergesort(): 1.338seconds
+mergesort2(): 1.19seconds
+quicksort(): 0.975seconds
+quicksort2(): 1.171seconds
+
+
+Completing task2... 
+Sorting random array of 10,000,000 integers... done
+Sorting presorted array of 10,000,000... done
+Sorting reverse sorted array of 10,000,000... done
+Average Running times: 
+quicksort(): 0.434 seconds
+quicksort2(): 0.482 seconds
+quicksort3(): 0.338 seconds
+
+
+completing task3... 
+Sorting random array of 1,000,000... done
+Sorting reverse sorted array of 1,000,000... done
+Sorting organ-pipe sorted array of 100,000... done
+Average Running times: 
+heapsort(): 0.117 seconds
+quicksort(): 0.039 seconds
+quicksort3(): 0.03 seconds
+quicksort4(): 0.092 seconds
+quicksort5(): 0.085 seconds
+naturalMergesort(): 0.04 seconds
+
+
+Completing task4...
+Sorting array of size 10,000,000 random int values that has k exchanges... done
+Sorting an array 10,000,000 random integers at most k distance from destined place...  done
+Average Running times: for K = 30
+quicksort3(): 56 milliseconds
+heapsort(): 135 milliseconds
+mergsort(): 78 milliseconds
+naturalMergeSort(): 61 milliseconds
+insertionSort(): 59405 milliseconds
+
+
+Completing task4... 
+Sorting array of size 10,000,000 random int values that has k exchanges... done
+Sorting an array 10,000,000 random integers at most k distance from destined place...  done
+Average Running times: for K = 100
+quicksort3(): 52 milliseconds
+heapsort(): 136 milliseconds
+mergsort(): 73 milliseconds
+naturalMergeSort(): 59 milliseconds
+insertionSort(): 59197 milliseconds
+
+
+Completing task4... 
+Sorting array of size 10,000,000 random int values that has k exchanges... done
+Sorting an array 10,000,000 random integers at most k distance from destined place...  done
+Average Running times: for K = 200
+quicksort3(): 52 milliseconds
+heapsort(): 140 milliseconds
+mergsort(): 74 milliseconds
+naturalMergeSort(): 59 milliseconds
+insertionSort(): 59410 milliseconds
+
+
+Completing task4... 
+Sorting array of size 10,000,000 random int values that has k exchanges... done
+Sorting an array 10,000,000 random integers at most k distance from destined place...  done
+Average Running times: for K = 300
+quicksort3(): 53 milliseconds
+heapsort(): 136 milliseconds
+mergsort(): 73 milliseconds
+naturalMergeSort(): 63 milliseconds
+insertionSort(): 60391 milliseconds

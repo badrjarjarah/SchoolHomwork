@@ -1,0 +1,17 @@
+**Task 1 conclusion*** 
+From findings of completing this with array size 10,000,000 both merge sorts performed 
+slower than the quick sorts with quicksort() being the best and mergesort() being the worst
+with almost a half a second difference per array sort.
+
+**Task 2 conclusion*** 
+quicksort3() had the best running times due to it checking for a specific case
+where the array is already sorted. 
+
+**Task 3 conclusion*** 
+quicksort3() with the modified addition of checking whether the list is sorted had the fasted running time while heapsort() had the slowest
+almost 3 times slower than quicksort3() both modified pivot versions of quicksort() did not perform as well as the original quicksort()
+n testing heap sort did not perform better in reverse sorted arrays with quicksort3() still performing 49 times better in my testing.
+
+**Task 4 conclusion*** 
+Quicksort() seems to be the most efficient algorithm for sorting except for its in an organ pipe sorted input that makes quick sort run in O(n^2). This 
+differs than the results on www.sorting-algorithm.com that says insertionsort() runs the fasted on almost sorted arrays.
